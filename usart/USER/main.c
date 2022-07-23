@@ -24,7 +24,7 @@ int main(void)
     uart_init(115200);              //初始化USART
     LED_Init();                     //初始化LED 
     KEY_Init();                     //初始化按键
-
+//20220723 start study git
     while(1)
     {
 			
@@ -41,7 +41,7 @@ int main(void)
 			times++;
 			if(times%5000==0)
 			{
-				printf("\r\nALIENTEK 阿波罗STM32F429开发板 串口实验\r\n");
+				printf("\r\nSTM32F429串口实验\r\n");
 				printf("正点原子@ALIENTEK\r\n\r\n\r\n");
 			}
 			if(times%200==0)printf("请输入数据,以回车键结束\r\n");  
